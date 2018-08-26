@@ -1,0 +1,50 @@
+body {
+	background-image:url('img01.png');
+	
+}
+h1{
+	color:#CCFF00;
+	font-family:"宋体",serif;
+	font-size:50px;
+}
+#menu{
+	width:5%;
+	height:800px;
+	float:left;
+	text-align:center;
+}
+#content{
+	width:95%;
+	height:780px;
+	float:left;
+}
+#content iframe{
+	width:90%;
+	height:90%;
+}
+#footer{
+	text-align:center;
+	width:100%;
+	height:10px;
+	color:
+}
+a.menu{
+	color:#DEFFAC;
+	text-align:left;
+	text-decoration:none;
+	font-size:25px;
+}
+#content{
+	font-size:150px;
+	color:#00FF99;
+	text-align:center;
+}
+ul{
+	color:red;
+}
+h3.web{
+	color:#FFFF37;
+}
+ul a{
+	color:red;
+}

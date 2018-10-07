@@ -2,17 +2,24 @@
 <!--html始于2018-08-20 22:00-->
 <html>
 <head>
-<meta charset="utf-8"></meta>
+<meta charset="utf-8">
 <title>huhuhu~的主页</title>
 <link rel="stylesheet" type="text/css" href="mystyle.css">
+<script src="myscript.js"></script>
 </head>
 
-<body>
-
+<body class="mainPage">
 <div id="container">
 
 <div id="header">
-<h1 class="header">huhuhuhu~ is the most handsome man!^_^</h1></div>
+<p style="display:inline;color:red">现在时间是:
+<script>
+document.write(Date());
+document.write(location.hostname);
+</script>
+</p>
+<button type="button" onclick="wellcome();">点我一下</button>
+<h1 class="header"><a href="file:///D:/Learn/HTML/%E4%B8%BB%E7%89%88.html">huhuhuhu~ is the most handsome man!^_^</a></h1></div>
 
 <div id="menu">
 <a class="menu" href="file:///D:/Learn/HTML/%E5%A8%B1%E4%B9%90%E7%89%88.htm" target="iframe_a">娱乐</a><br>
